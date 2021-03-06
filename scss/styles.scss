@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*fonts*/
+
+
+body {
+    background-color: black;
+}
+
+.nav-header {
+    font-family: 'Bebas Neue', cursive;
+    text-align: right;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    right: 0px;
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+.nav-header:first-letter {
+    color: crimson;
+}
+
+
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 20px;
+    font-size: xx-large;
+}
+
+
+.logo {
+    float: left;
+    width: 200px;
+    padding: 0 0 0 100px;
+}
+
+
+.encabezado, .title-encabezado {
+    text-align: left;
+    font-size: 103px;
+    
+}
+
+
+
+.title-logo {
+    font-family: 'Bebas Neue', cursive;
+    color: whitesmoke;
+    background-color: black;
+    font-size: smaller;
+    
+    padding: 10px 0px 10px 400px;
+}
+
+.title-logo:first-letter {
+    color: crimson;
+}
+
+.title-info {
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+    background-color: crimson;
+    padding: 30px;
+    text-align: right;
+    font-size: 50px;
+    
+}
+
+
+.title-info {
+    
+    background-color: crimson;
+    animation-name: Tripodi;
+    animation-duration: 3.5s;
+    display: block;
+    
+    
+}
+
+
+
+@keyframes Tripodi {
+    /* from  {
+        background-color: brown;
+    }
+
+    to {
+        background-color: yellow;
+    } */
+
+    0% {
+        background-color: rgb(63, 29, 158);
+    }
+
+    25% {
+        background-color: rgb(212, 126, 198);
+        border-radius: 50px;
+    }
+
+
+    60% {
+        background-color: rgb(102, 15, 88);
+        border-radius: 50px;
+    }
+
+}
+
+/*carousel*/
+.carousel-control-prev {
+    width: 70%;
+}
+
+.carousel-control-next {
+    width: 70%;
+}
+
+
+
+
+.title-info:first-letter {
+    color: whitesmoke;
+    
+}
+
+/*.img-bienvenida { 
+    float: inline-start;
+    width: 1343px;
+    height: 770px;
+    background-color: rgb(0, 0, 0);
+} */
+
+.img-redjov {
+    margin-left: 255px;
+    width: 800px;
+    height: 650px;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+.p-bienvenida {
+    font-family: 'Bebas Neue', cursive;
+    background-color: rgb(209, 84, 142);
+    font-weight: bold;
+    text-align: center;
+    text-indent: 10px;
+    word-spacing: 5px;
+    font-size: 30px;
+}
+
+.somos-familia, .soy-nuevo, .anotate  {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(209, 84, 142);
+    font-weight: bold;
+    text-align: center;
+    text-indent: 10px;
+    word-spacing: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.img-sc {
+    float: left;
+    width: 300px;
+    margin-left: 40px;
+    background-color: black;
+    margin-top: 30px;   
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.p-santacena {
+    background-color: rgb(209, 84, 142);
+    float: left;
+    margin-top: 200px;   
+    margin-left: 30px;
+    font-size: large;
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 400px) {
+    body {
+        background-color: #0f3158;
+    }
+}
+
+/* Tablet */
+
+@media only screen and (min-width: 401px) and (max-width: 961px) {
+    body {
+        background-color: #18053b;
+    }
+
+    .title-logo {
+        font-family: 'Bebas Neue', cursive;
+        color: whitesmoke;
+        background-color: black;
+        padding: 10px 0px 10px 400px;
+        margin-right: -365px;
+    }
+    
+    .title-info {
+        font-family: 'Bebas Neue', cursive;
+        color: black;
+        background-color: crimson;
+        padding: 30px;
+        text-align: right;
+        font-size: 50px;
+        margin-right: -360px;
+    }
+}    
+
+/* Desktop */
+
+@media only screen and (min-width: 961px) {
+    body {
+        background-color: #000000;
+    }
+
+    
+
+}
